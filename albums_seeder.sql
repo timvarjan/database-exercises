@@ -1,8 +1,9 @@
 USE codeup_test_db;
 
+TRUNCATE albums;
+
 INSERT INTO albums (id, artist, name, release_date, genre, sales)
-VALUES ('0','Michael Jackson', 'Thriller', 1982, 'Pop', 51.2),
-       ('1', 'AC/DC', 'Back in Black', 1980, 'Hard rock', 30.1),
+VALUES ('1', 'AC/DC', 'Back in Black', 1980, 'Hard rock', 30.1),
        ('2', 'Whitney Houston', 'The Bodyguard', 1992, 'R&B', 28.7),
        ('3', 'Pink Floyd', 'The Dark Side of the Moon', 1973, 'Progressive rock', 24.8),
        ('4', 'Eagles', 'Their Greatest Hits (1971–1975)', 1976, 'Country rock', 41.2),
@@ -29,8 +30,11 @@ VALUES ('0','Michael Jackson', 'Thriller', 1982, 'Pop', 51.2),
        ('25', 'Pink Floyd', 'The Wall', 1979, 'Progressive rock', 18.9),
        ('26', 'The Beatles', 'Sgt. Pepper''s Lonely Hearts Club Band', 1967, 'Rock', 18.3),
        ('27', 'Michael Jackson', 'Dangerous', 1991, 'New jack swing', 17.0),
-       ('28', 'The Beatles', 'Abbey Road', 1969, 'Rock', 16.9);
+       ('28', 'The Beatles', 'Abbey Road', 1969, 'Rock', 16.9),
+       ('29', 'Nirvana', 'Nevermind', '1991', 'Grunge, Alternative Rock', '26'),
+       ('30', 'Michael Jackson', 'Thriller', 1982, 'Pop', 51.2);
 
+SHOW TABLE;
 
-
+DESCRIBE albums;
 
